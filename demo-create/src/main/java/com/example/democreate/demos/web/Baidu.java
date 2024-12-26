@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Baidu {
 
     @GetMapping("/baidu")
-    @ResponseBody
     public String baidu() {
-        return "baidu6666666";
+        return "baidu66666677777776";
     }
 }

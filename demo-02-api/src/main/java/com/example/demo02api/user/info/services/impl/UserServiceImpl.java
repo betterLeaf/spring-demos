@@ -25,4 +25,11 @@ public class UserServiceImpl implements UserService {
         return userMapper.findById(id);
     }
 
+
+    @Override
+    public User addUser(User user) {
+         userMapper.addUser(user);
+         return user;
+    }
+
 }

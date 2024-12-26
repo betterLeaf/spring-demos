@@ -5,4 +5,6 @@ import com.example.demo02api.user.info.pojo.User;
 public interface UserService {
     public User findById(Integer id);
 
+    public User addUser(User user);
+
 }
